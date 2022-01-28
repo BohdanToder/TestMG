@@ -1,0 +1,53 @@
+body {
+  font-family: "Klee One", cursive;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+.title {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.element {
+  margin-top: 30px;
+}
+
+.button {
+  padding: 10px;
+  font-family: inherit;
+}

@@ -46,7 +46,7 @@ const func = (e) => {
     }
 
     alert(`Dream Team на першому місці, але якщо цікаво глянути результати то на, дивись...мені не жалко... 
-    \nDream Team - ${dreamTeamAverage}, \nTheBrainyFools - ${theBrainyFoolsAverage}, \nКотигорошко - ${cotyhoroshkoAverage}, \nНеМiсцевi - ${neMisceviAverage},\nНа горгушах - ${naHorhushahAverage},\nКокаиновый Коперник - ${kokainovyjKopernickAverage}.`);
+    \nDream Team - ${dreamTeamAverage}, \nTheBrainyFools - ${theBrainyFoolsAverage}, \nКотигорошко - ${cotyhoroshkoAverage}, \nНеМiсцевi - ${neMisceviAverage},\nНа горгушах - ${naHorhushahAverage},\nКокаиновый Коперник - ${kokainovyjKopernickAverage},\nТака вот петрушка, ребята...=).`);
 };
 
 button.addEventListener('click', func);

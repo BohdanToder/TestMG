@@ -37,7 +37,12 @@ p {
 .title,
 .text {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
+}
+
+.title__b {
+  text-align: center;
+  margin-top: 100px;
 }
 
 .form {

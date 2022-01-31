@@ -1,3 +1,4 @@
+const formMG = document.querySelector('.form');
 const dreamTeamScore = document.querySelector('.element__dt input');
 const theBrainyFoolsScore = document.querySelector('.element__bf input');
 const cotyhoroshkoScore = document.querySelector('.element__kh input');
@@ -45,8 +46,10 @@ const func = (e) => {
         kokainovyjKopernickAverage = 61;
     }
 
-    alert(`Dream Team на першому місці, але якщо цікаво глянути результати то на, дивись...мені не жалко... 
-    \nDream Team - ${dreamTeamAverage}, \nTheBrainyFools - ${theBrainyFoolsAverage}, \nКотигорошко - ${cotyhoroshkoAverage}, \nНеМiсцевi - ${neMisceviAverage},\nНа горгушах - ${naHorhushahAverage},\nКокаиновый Коперник - ${kokainovyjKopernickAverage},\nТака вот петрушка, ребята...=).`);
+    alert(`Dream Team на першому місці єсєсєна, але якщо цікаво глянути результати то на, дивись...мені не жалко... 
+    \nDream Team - ${dreamTeamAverage}, \nTheBrainyFools - ${theBrainyFoolsAverage}, \nКотигорошко - ${cotyhoroshkoAverage}, \nНеМiсцевi - ${neMisceviAverage},\nНа горгушах - ${naHorhushahAverage},\nКокаиновый Коперник - ${kokainovyjKopernickAverage}.`);
+
+    formMG.reset();
 };
 
 button.addEventListener('click', func);
